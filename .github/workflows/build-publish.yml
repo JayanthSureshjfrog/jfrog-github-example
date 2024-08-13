@@ -13,7 +13,7 @@ jobs:
         runs-on: ubuntu-latest
         env:
           DOCKER_REPO: 'demo-docker'
-          IMAGE_NAME: 'memcached:1.6.26'
+          IMAGE_NAME: 'memcached:1.6.27'
           JF_URL: https://${{ secrets.JF_URL }}/
         steps:
             - name: Any Name Bash Test Step
