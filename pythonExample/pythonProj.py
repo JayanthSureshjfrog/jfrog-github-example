@@ -18,6 +18,7 @@ import random
 from werkzeug.utils import secure_filename
 from docx import Document
 import yaml
+import base64
 
 def arc4_encrypt_password(key, password):
     cipher = ARC4.new(key.encode('utf-8'))
