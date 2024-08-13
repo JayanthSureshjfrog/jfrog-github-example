@@ -29,8 +29,8 @@ jobs:
                 JF_URL: https://${{ secrets.JF_URL }}/
                 JF_PROJECT: 'umac-project'
               with:
-                  oidc-provider-name: github-balaji
-                  oidc-audience: jfrog-github
+                  oidc-provider-name: jay-github
+                  oidc-audience: jay-github
 
             - name: Checkout the repository
               uses: actions/checkout@v4
