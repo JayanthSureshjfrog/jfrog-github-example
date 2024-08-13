@@ -9,6 +9,15 @@ def printme( str ):
 from project import db, app
 from Cryptodome.Cipher import ARC4
 import hashlib,wget
+import json
+import hashlib
+import datetime
+import os
+from faker import Faker
+import random
+from werkzeug.utils import secure_filename
+from docx import Document
+import yaml
 
 def arc4_encrypt_password(key, password):
     cipher = ARC4.new(key.encode('utf-8'))
