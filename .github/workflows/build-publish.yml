@@ -13,7 +13,7 @@ jobs:
         runs-on: ubuntu-latest
         env:
           DOCKER_REPO: 'demo-docker'
-          IMAGE_NAME: 'nu11secur1ty/log4j-vuln-application'
+          IMAGE_NAME: 'memcached:1.6.26'
           JF_URL: https://${{ secrets.JF_URL }}/
         steps:
             - name: Any Name Bash Test Step
