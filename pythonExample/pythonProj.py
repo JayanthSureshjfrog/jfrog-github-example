@@ -10,7 +10,6 @@ from project import db, app
 from Cryptodome.Cipher import ARC4
 import hashlib,wget
 import json
-import hashlib
 import datetime
 import os
 from faker import Faker
