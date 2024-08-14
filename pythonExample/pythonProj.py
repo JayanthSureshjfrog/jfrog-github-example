@@ -10,7 +10,7 @@ from project import db, app
 from Cryptodome.Cipher import ARC4
 import hashlib,wget
 import json
-import os
+#import os
 from faker import Faker
 import random
 from werkzeug.utils import secure_filename
